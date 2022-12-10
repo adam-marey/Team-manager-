@@ -1,14 +1,18 @@
 import './App.css';
 import Home from './components/Home/Home';
 import Navbar from './components/Navbar/Navbar';
-import Project from './components/Project/Project';
+import AllProjects from './components/Project/AllProjects';
+import ProjectForm from './components/Project/ProjectForm';
+import SingleProject from './components/Project/SingleProject';
 
 function App() {
   return (
     <div>
-      {/* <Navbar />
-      <Home /> */}
-      <Project />
+      <Navbar />
+      <Home />
+      <ProjectForm />
+      <SingleProject />
+      <AllProjects />
     </div>
   );
 }

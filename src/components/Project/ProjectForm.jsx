@@ -23,14 +23,7 @@ const Project = () => {
         <option>Sul</option>
       </select>
       <br />
-      <div>
-        <button className="button-50" type="submit" style={{ marginRight: 15 }}>
-          Delete Project
-        </button>
-        <button className="button-50" type="submit">
-          Edit Project
-        </button>
-      </div>
+      <br />
     </form>
   );
 };
