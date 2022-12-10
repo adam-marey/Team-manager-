@@ -1,0 +1,36 @@
+.home {
+  width: 80%;
+  min-height: 600px;
+  margin: 100px auto;
+  background: #c7bca1;
+}
+.boxsContainer {
+  background: #eaeaea;
+  min-height: 600px;
+}
+h1 {
+  text-align: center;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eaeaea;
+}
+@media (min-width: 950px) {
+  .rowContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .boxDown {
+    position: relative;
+    top: 150px;
+  }
+  .box {
+    width: 20%;
+  }
+  .header p {
+    width: 30%;
+  }
+}
