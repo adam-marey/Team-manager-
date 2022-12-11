@@ -5,7 +5,7 @@ const AllStudents = () => {
     <div className={styles.home}>
       <div className={styles.boxsContainer}>
         <br />
-        <h1>All Projects</h1>
+        <h1>All Students</h1>
         <div class="row1-container">
           <div class="box box-down cyan">
             <h2>Adam</h2>
