@@ -4,6 +4,8 @@ import Navbar from './components/Navbar/Navbar';
 import AllProjects from './components/Project/AllProjects';
 import ProjectForm from './components/Project/ProjectForm';
 import SingleProject from './components/Project/SingleProject';
+import AllStudents from './components/Student/AllStudents';
+import SingleStudent from './components/Student/SingleStudent';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <ProjectForm />
       <SingleProject />
       <AllProjects />
+      <SingleStudent />
+      <AllStudents />
     </div>
   );
 }
